@@ -1,0 +1,28 @@
+{
+    "name": "experimental-theme",
+    "displayName": "experimental-theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "supahkenneh",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark theme",
+        "experimental theme",
+        "supahkenneh"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Experimental",
+                "uiTheme": "vs-dark",
+                "path": "./themes/experimental-color-theme.json"
+            }
+        ]
+    }
+}
